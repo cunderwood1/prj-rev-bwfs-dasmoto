@@ -1,0 +1,37 @@
+/* Dasmoto's Arts & Crafts Stylesheet */
+html {
+  font-family: helvetica;
+}
+
+h1 {
+  background-image: url("../images/pattern.jpeg");
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 100px;
+  color: Khaki;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+h2.brushes {
+  background-color: mediumspringgreen;
+}
+
+h2.frames {
+  background-color: lightcoral;
+}
+
+h2.paint {
+  background-color: skyblue;
+}
+
+/* Used strong tag rather than 'span' tag and classes for bold & blue */
+strong {
+  color: blue;
+}
